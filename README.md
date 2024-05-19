@@ -9,8 +9,14 @@ sudo apt install clang
 ```
 
 # Building
+For Linux `x84_84`:
 ```
 bazel build //main:hello-world
+```
+
+For a fake Android (really using a duplication of the same setup):
+```
+bazel build //main:hello-world --android_platforms=//toolchain:android_x86_64
 ```
 
 # Toolchains
