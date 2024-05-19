@@ -1,6 +1,12 @@
 Basic sample of setting up a C++ build toolchain in Bazel. This is based on a [C++ Bazel Tutorial](https://bazel.build/tutorials/ccp-toolchain-config).
 
+# Setup
 Requires [Bazel](https://bazel.build/install).
+
+It also requires `clang`:
+```
+sudo apt install clang
+```
 
 # Building
 ```
