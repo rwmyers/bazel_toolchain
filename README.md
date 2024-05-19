@@ -6,3 +6,11 @@ Requires [Bazel](https://bazel.build/install).
 ```
 bazel build //main:hello-world
 ```
+
+# Toolchains
+
+## Resolving toolchains
+
+```
+bazel build //main:hello-world --toolchain_resolution_debug='@bazel_tools//tools/cpp:toolchain_type'
+```
